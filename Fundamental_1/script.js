@@ -54,7 +54,7 @@ console.log(job);
 
 job = 'teacher';
 console.log(job);
-*/
+
 
 // Basic Operators
 const now = 2025;
@@ -85,3 +85,40 @@ console.log(ageEben, ageSarah);
 const avgAge = (ageEben + ageSarah) /2
 console.log(avgAge);
 console.log(typeof avgAge);
+*/
+// Coding Challenge #1💪⏳
+
+let countryPolulation = 34854457;
+const halfPopulation = countryPolulation / 2;
+console.log('Number of people living in each half:', halfPopulation);
+
+countryPolulation++;
+console.log(countryPolulation);
+
+const finlandPopulation = 6000000;
+console.log(countryPolulation > finlandPopulation);
+
+const averagePopulation = 33000000;
+console.log(countryPolulation < averagePopulation);
+
+const description = 'Portugal is in Europe, and its 11 million people speak portuguese';
+console.log(description);
+
+// code challenge 2
+let mass, height;
+let BMI = mass / (height ** 2); 
+
+markMass = 78;
+markHeight = 1.69;
+
+johnMass = 92;
+johnHeight = 1.95;
+
+let markBMI = markMass / (markHeight ** 2);
+let johnBMI = johnMass / (johnHeight ** 2);
+
+console.log("Mark's weight:", markBMI);
+console.log("John's weight:", johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
