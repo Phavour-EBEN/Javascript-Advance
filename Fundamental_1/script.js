@@ -56,7 +56,32 @@ job = 'teacher';
 console.log(job);
 */
 
- const now = 2025;
+// Basic Operators
+const now = 2025;
 const ageEben = now - 2002;
-const ageSarah = now - 2018;
+const ageSarah = now - 2010;
 console.log(ageEben, ageSarah);
+
+let x = 10 + 5;
+x += 10; // x = x + 10
+console.log(x);
+
+// concatenation
+const firstName = 'Eben';
+const lastName = 'Ainoo';
+
+console.log(firstName + ' ' + lastName);
+
+// comparison operators
+console.log(ageEben > ageSarah);
+console.log(ageSarah >= 10)
+
+// operation precedence
+let X, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+console.log(ageEben, ageSarah);
+const avgAge = (ageEben + ageSarah) /2
+console.log(avgAge);
+console.log(typeof avgAge);
