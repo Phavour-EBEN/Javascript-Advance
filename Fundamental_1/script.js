@@ -106,7 +106,7 @@ console.log(description);
 
 // code challenge 2
 let mass, height;
-let BMI = mass / (height ** 2); 
+let BMI = mass / (height ** 2);
 
 markMass = 78;
 markHeight = 1.69;
