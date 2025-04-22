@@ -107,6 +107,7 @@ console.log(countryPolulation < averagePopulation);
 const description = 'Portugal is in Europe, and its 11 million people speak portuguese';
 console.log(description);
 
+*/
 // code challenge 2
 let mass, height;
 let BMI = mass / (height ** 2);
@@ -126,7 +127,7 @@ console.log("John's weight:", johnBMI);
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
 
-*/
+/*
 
 // String and Template Literals
 const firstName = 'Eben';
@@ -141,3 +142,25 @@ console.log(ebenContext);
 console.log(`String with \n\
 multiple \n\
 lines`);
+
+
+
+//If - Else Statements
+const age = 30;
+const isOldEnough = age >=18;
+
+if(isOldEnough){
+    console.log("You can start driving!");
+}else{
+    const yearsLeft = 18-age
+    console.log(`You are not old enough to drive yet!, you ahve to wait ${yearsLeft} more`);
+}
+
+*/
+
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})`);
+
+}else if (johnBMI > markBMI) {
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})`);
+}
