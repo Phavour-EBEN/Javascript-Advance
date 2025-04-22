@@ -88,6 +88,9 @@ console.log(typeof avgAge);
 */
 // Coding Challenge #1💪⏳
 
+//solution 1
+
+/*
 let countryPolulation = 34854457;
 const halfPopulation = countryPolulation / 2;
 console.log('Number of people living in each half:', halfPopulation);
@@ -122,3 +125,19 @@ console.log("John's weight:", johnBMI);
 
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+
+*/
+
+// String and Template Literals
+const firstName = 'Eben';
+const job = 'programmer';
+const birthYear = 2002;
+const year = 2025;
+
+const ebenContext = `I'm ${firstName}, an AI ${job}, and I am ${year - birthYear} years old!!!`;
+console.log(ebenContext);
+
+// multiline strings
+console.log(`String with \n\
+multiple \n\
+lines`);
