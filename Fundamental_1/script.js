@@ -280,7 +280,7 @@ if((Dolphins > Koalas) && (Dolphins>=minScore)){
 }
 */
 // Switch Statements
-const day = 'monday';
+const day = 'wednesday';
 
 switch(day){
     case 'monday':
@@ -309,3 +309,4 @@ switch(day){
         console.log("Not a valid day");
         break;
 }
+
