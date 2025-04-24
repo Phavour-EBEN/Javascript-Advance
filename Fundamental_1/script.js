@@ -102,12 +102,12 @@ const finlandPopulation = 6000000;
 console.log(countryPolulation > finlandPopulation);
 
 const averagePopulation = 33000000;
-console.log(countryPolulation < averagePopulation);
+console.log(countryPolulation < (ave)ragePopulation);
 
 const description = 'Portugal is in Europe, and its 11 million people speak portuguese';
 console.log(description);
 
-*/
+
 // code challenge 2
 let mass, height;
 let BMI = mass / (height ** 2);
@@ -127,7 +127,7 @@ console.log("John's weight:", johnBMI);
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
 
-/*
+
 
 // String and Template Literals
 const firstName = 'Eben';
@@ -156,7 +156,27 @@ if(isOldEnough){
     console.log(`You are not old enough to drive yet!, you ahve to wait ${yearsLeft} more`);
 }
 
-*/
+
+
+// code challenge 2
+let mass, height;
+let BMI = mass / (height ** 2);
+
+markMass = 78;
+markHeight = 1.69;
+
+johnMass = 92;
+johnHeight = 1.95;
+
+let markBMI = markMass / (markHeight ** 2);
+let johnBMI = johnMass / (johnHeight ** 2);
+
+console.log("Mark's weight:", markBMI);
+console.log("John's weight:", johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+
 
 if (markBMI > johnBMI) {
     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})`);
@@ -164,3 +184,98 @@ if (markBMI > johnBMI) {
 }else if (johnBMI > markBMI) {
     console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})`);
 }
+
+
+
+// Type Conversion and Coercion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear)
+console.log(String(50), 50)
+
+// type coercion
+console.log("I am" + 10 + "year")
+// addtion sign convert int type to string type and
+// the subtraction sign convert the string type to int type
+
+console.log("22 " - "10")
+
+
+// Truthy and Falsy
+// falsy values(0, '', undefined, null, NaN)
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(""));
+console.log(Boolean(null));
+
+const money = 10;
+
+if (money){
+    console.log("Don't spend it all");
+}else{
+    console.log("you need a job");
+}
+
+// equality operator
+const age = '18';
+if(age === 18) console.log("you are now an adult, Doesn't")
+// note that the === does not support type coercion
+
+if (age == 18) console.log("You are now an Adult, Sopprt type coercions")
+
+const favorite = prompt("what is your favorite nubver? :");
+console.log(favorite);
+console.log(typeof favorite);
+
+if(favorite ===23){
+    console.log("Cool, 23 is a number")
+}else if(favorite===7){
+    console.log("7 is also a cool number")
+}else{
+    console.log("Is not a number")
+}
+
+
+//  Booleean Logic
+const hasDriverLicense =  true;
+const hasGoodVision = false;
+
+console.log(hasDriverLicense && hasGoodVision)
+console.log(hasDriverLicense || hasGoodVision)
+console.log(!hasGoodVision)
+
+// to make a decision
+const shouldDrive = (hasDriverLicense || hasGoodVision)
+
+if (shouldDrive){
+    console.log("Sarah is able to drive");
+}else{
+    console.log("someone else should drive")
+}
+
+
+// CODING CHALLENG
+const Dolphins = (96+108+89)/3; 
+const Koalas = (88+91+110)/3;
+// the requirement
+const minScore = 100;
+
+console.log(`Dolphins avg is ${Dolphins}`)
+console.log(`koalas avg is ${Koalas}`)
+
+if(Dolphins > Koalas){
+    console.log(`Dolphins wins, with an avg score of ${Dolphins}`)
+}else if (Koalas > Dolphins){
+    console.log(`Koalas wins, with an avg score of ${Koalas}`)
+}else if(Dolphins === Dolphins){
+    console.log("The game is a draw")
+}
+
+// with the requirement
+if((Dolphins > Koalas) && (Dolphins>=minScore)){
+    console.log(`Dolphins wins, with an avg score of ${Dolphins} greater than ${minScore}`)
+}else if ((Koalas > Dolphins) && (Koalas>=minScore)){
+    console.log(`Koalas wins, with an avg score of ${Koalas} greater than ${minScore}`)
+}else{
+    console.log("The game is a draw")
+}
+*/
