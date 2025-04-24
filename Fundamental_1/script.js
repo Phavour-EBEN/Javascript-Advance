@@ -279,3 +279,33 @@ if((Dolphins > Koalas) && (Dolphins>=minScore)){
     console.log("The game is a draw")
 }
 */
+// Switch Statements
+const day = 'monday';
+
+switch(day){
+    case 'monday':
+        console.log("Plan the day");
+        console.log("Go to coding meetup");
+        break;
+    case 'tuesday':
+        console.log("Go to the shop");
+        break;
+    case 'wednesday':
+        console.log("Go to the gym");
+        break;
+    case 'thursday':
+        console.log("Go to the cinema");
+        break;
+    case 'friday':
+        console.log("Go to Brigade");
+        break;
+    case 'saturday':
+        console.log("Go to Trumpet training"); 
+        break;
+    case 'sunday':
+        console.log("Go to church");
+        break;
+    default:
+        console.log("Not a valid day");
+        break;
+}
