@@ -278,7 +278,7 @@ if((Dolphins > Koalas) && (Dolphins>=minScore)){
 }else{
     console.log("The game is a draw")
 }
-*/
+
 // Switch Statements
 const day = 'wednesday';
 
@@ -309,4 +309,12 @@ switch(day){
         console.log("Not a valid day");
         break;
 }
+*/
+// Ternary Operator "?""
+const age = 23;
 
+age >= 30 ? console.log("can't drive") : console.log("can drive");
+
+let drink2 = "wine";
+
+drink2 === "wine" ? console.log("drink wine") : console.log("drink water");
