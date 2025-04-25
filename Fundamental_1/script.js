@@ -309,7 +309,7 @@ switch(day){
         console.log("Not a valid day");
         break;
 }
-*/
+
 // Ternary Operator "?""
 const age = 23;
 
@@ -318,3 +318,34 @@ age >= 30 ? console.log("can't drive") : console.log("can drive");
 let drink2 = "wine";
 
 drink2 === "wine" ? console.log("drink wine") : console.log("drink water");
+*/
+// Coding Challenge #4
+/*
+Steven wants to build a very simple tip calculator
+for whenever he goes eating in a resturant. In his
+country, it's usual to tip 158 if the bill value is
+between 50 and 300. If the value is different, the
+tip is 206.
+1. Your task is to caluclate the tip, depending on
+the bill value. Create a variable called 'tipl for
+this. I t 's not allowed to use an if/etse statement
+(If it's easier for you, you can start with an j f/
+else statement, and then try to convert it to a
+ternary operator!)
+2. Print a string to the console containing the bill
+value, the tip, and the final value (bill + tip).
+Example: 'The bill was 275, the tip was 41.25, and
+the total
+TEST DATA:
+value 316.25'
+Test for bill values 275,
+40 and 43
+
+// Solution 1
+const bill = Number(prompt("Enter the bill amount: "));
+const tip = bill >= 50 && bill <=300 ? bill * 0.15 : bill *0.2;
+console.log(`The bill is ${bill}, the tip is ${tip}`);
+const total = bill + tip;
+console.log(`The total amount is ${total}`);
+
+*/
