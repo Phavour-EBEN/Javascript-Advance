@@ -23,7 +23,7 @@ function fruitDrinks(apples, oranges) {
 // note that 5 and 2 are arguments
 const appleJuice = fruitDrinks(5, 2);
 console.log(appleJuice);
-*/
+
 
 // lesson 3 functions decleration and expressions
 // function decleration
@@ -40,3 +40,30 @@ calcAge2 =  function (birthYear){
 }
 
 console.log(calcAge2(2002), calcAge(2002));
+
+*/
+// lesson 4 arrow functions
+/*
+const calcAge4 = birthYear => 2025- birthYear;
+
+console.log(calcAge4(1995));
+*/
+
+// retirement year
+/*
+const calcAge = birthYear => 2025- birthYear;
+const age = calcAge(1990)
+console.log("current age: "+ age)
+
+ const retirementTimeLeft = 60-age;
+ console.log(`Retirement is in ${retirementTimeLeft} years to come`)
+*/
+//  proper use of the arrow funtion
+const yearUntilRetirement = birthYear =>{
+    const age = 2025 - birthYear;
+    console.log(age)
+    const retirementTime = 65- age;
+    return retirementTime;
+}
+
+console.log(yearUntilRetirement(1995));
