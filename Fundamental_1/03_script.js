@@ -57,7 +57,7 @@ console.log("current age: "+ age)
 
  const retirementTimeLeft = 60-age;
  console.log(`Retirement is in ${retirementTimeLeft} years to come`)
-*/
+
 //  proper use of the arrow funtion
 const yearUntilRetirement = birthYear =>{
     const age = 2025 - birthYear;
@@ -67,3 +67,4 @@ const yearUntilRetirement = birthYear =>{
 }
 
 console.log(yearUntilRetirement(1995));
+*/
