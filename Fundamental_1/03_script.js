@@ -24,3 +24,19 @@ function fruitDrinks(apples, oranges) {
 const appleJuice = fruitDrinks(5, 2);
 console.log(appleJuice);
 */
+
+// lesson 3 functions decleration and expressions
+// function decleration
+function calcAge(birthYear) {
+    return 2025 - birthYear;
+}
+
+// function call can be made before function definition
+console.log(calcAge(2002));
+
+// function expression
+calcAge2 =  function (birthYear){
+    return 2026 - birthYear;
+}
+
+console.log(calcAge2(2002), calcAge(2002));
