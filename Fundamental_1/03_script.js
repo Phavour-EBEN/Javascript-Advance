@@ -67,4 +67,27 @@ const yearUntilRetirement = birthYear =>{
 }
 
 console.log(yearUntilRetirement(1995));
+
+
+// functions inside another function lesson
+const calAge = function (birthYear){
+    return age = 2025 - birthYear;
+
+}
+
+const yearUntilRetirement = function (fname){
+    const age = calAge(1800)
+    console.log(age);
+    const retirementTime = 65- age;
+
+    if(retirementTime>0){
+        return retirementTime;
+    }else{
+        return -1;
+    }
+
+    // return `${fname} retirementTime is in ${retirementTime}`;
+}
+
+console.log(yearUntilRetirement("Jonas"));
 */
