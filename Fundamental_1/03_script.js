@@ -139,14 +139,64 @@ const checkWinners = (Dolphins, Koalas) => {
 
 console.log(checkWinners(Dolphins, Koalas))
 
-*/
-/*
+
+
 // Arrays
 const friends = ["mick", "John", "Frank", "James"];
 console.log(friends[2])
 console.log(friends.length)
 console.log(friends[friends.length-1])
 
-friends[2] = "Grace"
+friends[2] = "Grace";
+console.log(friends);
+
+// methods
+friends.push("Mary");
+console.log(friends);
+
+friends.unshift("Peter");
 console.log(friends)
+
+const removedEle = friends.pop();
+console.log(removedEle);
+console.log(friends);
+
+friends.shift()
+console.log(friends)
+
+// coding challeng 2
+Steven is still bui Iding his tip cazculator, using
+the same rules as before: Tip ot the bill it the
+bill vaiue '5 between 50 and 300, and if the value is
+d} f ferent,
+the tip is 20*.
+1. Write a function 'calcTip' that takes any bill
+value as an input and returns the corresponding tip,
+calculated based on the rules above (you can check
+out thc code from first tip calculator chal Lenge if
+you need to}. use the function type you L ike the
+most. Test the functlon using a bit t value Of
+2. And now let's use arrays! So create on array
+'bills' containing the test data below.
+3. Create an array 'tips' containing the tip value
+for each bit! , calculated from the function you
+created before.
+4. BONUS: Create an array 'total' containing the
+total values, so the bill + tip.
+TEST DATA: 125, 555 and 44
+
+// solution
+const calcTip = billValue =>{
+    if((billValue>=50) && (billValue<=300)){
+        return billValue*0.15
+    }else{
+        return billValue*0.2
+    }
+}
+console.log(calcTip(10))
+
+const bills = [125, 555, 44];
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+console.log(tips)
+
 */
