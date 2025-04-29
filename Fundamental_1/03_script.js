@@ -140,3 +140,12 @@ const checkWinners = (Dolphins, Koalas) => {
 console.log(checkWinners(Dolphins, Koalas))
 
 */
+
+// Arrays
+const friends = ["mick", "John", "Frank", "James"];
+console.log(friends[2])
+console.log(friends.length)
+console.log(friends[friends.length-1])
+
+friends[2] = "Grace"
+console.log(friends)
