@@ -199,4 +199,33 @@ const bills = [125, 555, 44];
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
 console.log(tips)
 
-*/
+*
+
+// Objects and methods
+
+const eben = {
+    fnamae: "eben",
+    lname: "doe",
+    age: 2025-2002,
+    job: "student",
+    friends: ["eric", "jerry", "sammy", "erica"]
+}
+
+console.log(eben)
+console.log(eben.friends)
+// console.log(eben.)
+
+// const input = prompt("what do want to know about eben (fname, lname, age, job, friends)")
+const input = "job"
+
+if(eben[input]){
+    console.log(eben[input])
+}else{
+    console.log("wrong request!!!")
+}
+
+eben.location = "ghana"
+eben.mail = "05@gmail.com"
+console.log(eben)
+
+console.log(`${eben.fnamae} has ${eben.friends.length} friends, and his best freind is ${eben.friends[1]}`)
